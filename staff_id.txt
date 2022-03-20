@@ -1,0 +1,32 @@
+id 
+
+新宿店
+only_1_positive_fighter@yahoo.co.jp
+
+東京店
+shimazaki.front@mail.com
+
+横浜店
+yamawaki-front@mail.com
+
+pw共通
+frekissno1yk
+
+takahashi-con@mail.com
+
+
+id=self.kwargs['pk']
+id=request.user.id
+
+pythonanywhereにデプロイできたがアクセスするとHPが表示されなくなってしまった
+
+問題点
+・aタグhrefが空でも写真をクリックすると画面遷移できるようだがurlを入れないとできない。store.html 18行目
+・メインユーザーでログインできるが、他のidを使ってログインしようとすると
+index out of rangeエラーが出てしまっている。
+
+目標
+・エラーを修正してデプロイさせたい
+
+疑問点
+・デプロイ後も編集はできるのか？
